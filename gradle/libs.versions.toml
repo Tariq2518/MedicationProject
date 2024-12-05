@@ -32,6 +32,8 @@ coroutines = "1.8.0"
 # Testing
 mockito = "5.8.0"
 archCoreTesting = "2.2.0"
+junitJupiter = "5.8.1"
+coreKtxVersion = "1.6.1"
 
 [libraries]
 # Core Android
@@ -80,6 +82,8 @@ androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit
 mockito-core = { group = "org.mockito", name = "mockito-core", version.ref = "mockito" }
 coroutines-test = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test", version.ref = "coroutines" }
 arch-core-testing = { group = "androidx.arch.core", name = "core-testing", version.ref = "archCoreTesting" }
+junit-jupiter = { group = "org.junit.jupiter", name = "junit-jupiter", version.ref = "junitJupiter" }
+core-ktx = { group = "androidx.test", name = "core-ktx", version.ref = "coreKtxVersion" }
 
 
 [plugins]

@@ -19,7 +19,7 @@ data class Medication(
     val dose: String,
     val strength: String,
     val problem: String
-): Parcelable{
+): Parcelable {
     override fun equals(other: Any?): Boolean {
         if (this === other) return true
         if (javaClass != other?.javaClass) return false
