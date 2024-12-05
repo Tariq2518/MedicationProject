@@ -5,6 +5,7 @@ plugins {
     alias(libs.plugins.hilt.android)
     alias(libs.plugins.navigation.safeargs)
     alias(libs.plugins.kotlin.parcel)
+    alias(libs.plugins.compose.compiler)
 }
 
 android {
